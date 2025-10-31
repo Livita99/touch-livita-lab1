@@ -1,0 +1,23 @@
+{
+  "name": "touch-livita-lab1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Livita99/touch-livita-lab1.git",
+  "author": "Livita <150226387+Livita99@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "eslint": "^9.38.0",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit",
+    "lint": "eslint . --ext .js"
+  }
+}
