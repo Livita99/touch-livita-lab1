@@ -3,9 +3,9 @@ import app from "../app.js";
 import { expect } from "chai";
 
 describe("GET /", () => {
-  it("should return Hello from Render!", async () => {
+  it("should return Hello, testing automatic deployment!", async () => {
     const res = await request(app).get("/");
     expect(res.status).to.equal(200);
-    expect(res.text).to.equal("Hello from Render!");
+    expect(res.text).to.equal("Hello, testing automatic deployment!");
   });
 });
